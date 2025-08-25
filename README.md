@@ -7,8 +7,8 @@ This script allows you to take a screenshot, upload it to PixelVault, and automa
 1. **Clone the repository**:
 
 ```bash
-git clone <your-repo-url>
-cd <repo-directory>
+git clone https://github.com/sesjaphp/PixelVault-Uploader.git
+cd PixelVault-Uploader
 ```
 
 2. **Install dependencies**:
@@ -25,7 +25,7 @@ python3 -m pip install --user -r requirements.txt
 cp example.env .env
 ```
 
-* Edit `.env` and add your PixelVault API key, URL, and screenshot save folder:
+* Edit `.env` and add your PixelVault API key and screenshot save folder:
 
 ```
 API_KEY=your_pixelvault_key
